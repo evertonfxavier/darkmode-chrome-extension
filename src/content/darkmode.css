@@ -1,0 +1,14 @@
+/* NightOwl Dark Mode - Injected Styles */
+/* This file contains additional CSS that gets injected into pages */
+
+/* Override common light mode patterns */
+.nightowl-active html,
+.nightowl-active body {
+  background-color: #1a1a2e !important;
+}
+
+/* Ensure smooth transitions */
+.nightowl-transition * {
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
